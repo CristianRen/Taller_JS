@@ -77,3 +77,74 @@ for (let i = 0; i < numero.length; i++) {
 console.log(`El número mayor del Array es ${nMayor}`);
 */
 //----------------------------------------------------------
+
+//Objetos
+//Reto 1: objetos que muestre nombre, edad, profesión 
+
+//----------------------------------------------------------
+
+/*
+const persona = [{
+    nombre: 'Cristian',
+    edad: '28',
+    profesion: 'Animador Digital'
+},
+{
+    nombre: 'Juan',
+    edad: '14',
+    profesion: 'Estudiante'
+},
+{
+    nombre: 'Camila',
+    edad: '30',
+    profesion: 'Diseñadora gráfica'
+},
+{
+    nombre: 'Sara',
+    edad: '25',
+    profesion: 'Psicolaga'
+}];
+
+
+*/
+//----------------------------------------------------------
+
+//Reto 2: Carrito de mercado
+/*
+const carrito =[
+    {
+        producto: 'Arroz',
+        precio: 2500
+    },
+    {
+        producto: 'Fideos',
+        precio: 3250
+    },
+    {
+        producto: 'Panela',
+        precio: 1890
+    },
+    {
+        producto: 'Atún',
+        precio: 3200
+    },  
+    {
+        producto: 'Leche',
+        precio: 4000
+    },
+    {
+        producto: 'Queso',
+        precio: 6500
+    }
+];
+
+let total =0;
+for (let i = 0; i < carrito.length; i++) {
+    console.log(`Producto ${carrito[i].producto}, Precio ${carrito[i].precio}`) ; 
+   total += carrito[i].precio;
+};
+console.log(`El total a pagar es de ${total}`);
+
+*/
+
+//----------------------------------------------------------
