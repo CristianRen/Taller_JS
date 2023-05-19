@@ -163,3 +163,55 @@ for (let i = 1; i <= num; i++) {
 };
 */
 //----------------------------------------------------------
+
+//Reto 2: For que muestre solo números pares
+
+//----------------------------------------------------------
+
+/*
+let num =10;
+
+for (let i = 1; i <= num; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+    
+    
+}
+*/
+//----------------------------------------------------------
+
+//Array con objetos
+// Crear una array con ebjetos y mostrar su profesión
+
+//----------------------------------------------------------
+/*
+const personas = [
+{
+    nombre: 'María',
+    edad: 48,
+    profesion: 'Abogada'
+},
+{
+    nombre: 'José',
+    edad: 20,
+    profesion: 'Ingeniero'
+},
+{
+    nombre: 'Karla',
+    edad: 35,
+    profesion: 'Profesora'
+},
+{
+    nombre: 'Sofia',
+    edad: 27,
+    profesion: 'Artista'
+}
+];
+
+for (let i = 0; i < personas.length; i++) {
+    console.log(`La profesión de ${personas[i].nombre} es ${personas[i].profesion}`);
+    
+};
+*/
+//----------------------------------------------------------
