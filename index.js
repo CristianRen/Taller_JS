@@ -215,3 +215,23 @@ for (let i = 0; i < personas.length; i++) {
 };
 */
 //----------------------------------------------------------
+
+//Reto Final
+//Adivinar el número del 1 al 10
+
+
+//----------------------------------------------------------
+/*
+let nUser = 8;
+let num = 10;
+
+num = Math.floor(Math.random() * 10)+1;
+if (nUser === num) {
+    console.log('El usuario adivino el número');
+}else{
+    console.log('el usuario no adivino el número el número era'+' '+num);
+}
+*/
+
+//----------------------------------------------------------
+
